@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+ }
+ 
+
+header{
+    width: 100vx;
+height: 127px;
+position:sticky;
+top: 0%;
+}
+
+.icons{
+    margin-top: 110px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+    height: 50px;
+    position: sticky;
+    top: 6em;
+}
+
+
+ul{
+    background-color: #6F6AF7;
+}
+
+.navbar li  {
+    float: left;
+    color: white;
+    padding: 25px;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: DM Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 400px;
+line-height: normal;
+
+}
+
+.home{
+    margin-left: 250px;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.logo{
+    margin: -25px;
+    width: 150px;
+    height: 45px;
+
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#search{
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: -10px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+
+#searchicon{
+    transform: translateX(-200%);
+    height: 20px;
+}
+
+.ham{
+    height: 40px;
+    margin-top: -1px;
+    margin-left: 80px;
+
+}
+
+.imgdata{
+    padding: 50px;
+    margin-left: 75px;
+}
+
+.box{
+   border-radius: 20px;
+    border: 2px solid #FFF;
+    background-color: #E5D8FF;
+    float: right;
+    width: 550px;
+    height: 311px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-right: 300px;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 178.7%; /* 51.823px */
+color: #6F7373;
+}
+
+.container{
+display: flex;
+justify-content: space-evenly;
+}
+
+.box1{
+border:2px solid #929DFF;
+background-color: #929DFF;
+height: 77px;
+width: 200px;
+border-radius: 11px;
+padding: 10px;
+text-align: center;
+font-size: 22px;
+color: white;
+
+}
+
+
+.box2{
+    border:2px solid #734CF2;
+background-color: #734CF2;
+height: 77px;
+width: 200px;
+border-radius: 11px;
+padding: 10px;
+text-align: center;
+font-size: 22px;
+color: white;
+margin-left: 55px;
+}
+
+.box3{
+    border:2px solid #D288FF;
+    background-color: #D288FF;
+    height: 77px;
+    width: 200px;
+    border-radius: 11px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-left: 55px;
+}
+
+.box4{
+    border:2px solid #000000;
+    background-color: #000000;
+    height: 77px;
+    width: 200px;
+    border-radius: 11px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    margin-left: 55px;
+}
+
+.container2{
+    background-color: #483EFF;
+    border:2px solid #483EFF;
+    border-radius: 21px;
+    height: 60vh;
+    width: 60vw;
+    margin-top: 70px;
+    margin-left: 250px;
+}
+
+.leftbox1{
+    border:1px solid #BCE0F6;
+    background-color: #BCE0F6;
+    border-radius: 10px;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    width:200px;
+    height: 100px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.leftbox1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.leftbox2{
+    border:3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    width:200px;
+    height: 100px;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.leftbox2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.leftbox3{
+    border:3px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+    width:200px;
+    height: 100px;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.leftbox3 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.right{
+    font-family: 'Roboto', sans-serif;
+    float:right;
+    margin-right: 40px;
+    margin-top: 50px;
+    border-radius: 19px;
+background-color: white;
+border: 2px solid white;
+width:35vw;
+height:42vh;
+padding-top: 30px;
+    padding-left: 30px;
+}
+
+.right ul{
+    background-color: white;
+}
+
+.right li{
+    color: #04285A;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 50;
+line-height: normal;
+letter-spacing: 2px;
+}
+
+.next{
+    float:right;
+    border:1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+.next a{
+    text-decoration: none;
+    color: white;
+}
+
+.helpicon{
+    position: fixed;
+    top: 85%;
+    right: 3em;
+   
+}
